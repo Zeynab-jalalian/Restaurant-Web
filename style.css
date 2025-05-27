@@ -51,5 +51,32 @@ header{
     font-size: var(--p-font);
     margin: 0 30px;
     padding: 2px 0;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid transparent;
+    transition: all 0.6s ease;
+}
+.navlist a:hover{
+    color: var(--main-color);
+    border-bottom: 2px solid var(--main-color);
+}
+.nav-content{
+    display: flex;
+    align-items: center;
+}
+.nav-content a{
+    display: inline-block;
+    font-size: 23px;
+    color: var(--text-color);
+    margin: 0 10px;
+    transition: all 0.6s ease;
+}
+.nav-content a:hover{
+ color: var(--main-color);
+ transform: scale(1.1);
+}
+#menu-icon{
+    font-size: 32px;
+    z-index: 10001;
+    cursor: pointer;
+    margin-left: 10px;
+    display: none;
 }
