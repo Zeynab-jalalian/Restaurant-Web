@@ -474,3 +474,22 @@ section {
     transform: translateY(-6px);
     color: var(--main-color);
 }
+.copyright{
+    text-align: center;
+    padding: 18px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+.scroll-btnnn{
+    position: fixed;
+    bottom: 2.9rem;
+    right: 3.5rem;
+}
+.scroll-btnnn i{
+    font-size: 27px;
+    color: var(--bg-color);
+    padding: 10px;
+    background: var(--main-color);
+    border-radius: 9px;    
+}
